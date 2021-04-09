@@ -1,0 +1,19 @@
+programa {
+	funcao inicio() {
+		inteiro n1
+		
+		escreva("Entre com o primeiro numero: ")
+		leia(n1)
+		
+		se(n1>0){
+		    escreva("Numero Positivo. ")
+		}senao se (n1<0){
+		    escreva("Numero Negativo. ")
+		   	}senao{
+		    escreva("Numero Nulo. ")}
+		    
+		    }
+        }	
+		
+	
+

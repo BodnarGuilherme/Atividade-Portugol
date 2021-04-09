@@ -1,0 +1,43 @@
+programa {
+    funcao inicio() {
+        inteiro a
+        inteiro b
+        inteiro c
+        inteiro d
+
+        escreva("Diga um numero: ")
+        leia(a)
+        escreva("Diga outro numero: ")
+        leia(b)
+        escreva("Diga outro numero: ")
+        leia(c)
+        escreva("Diga outro numero: ")
+        leia(d)
+
+        se(a > b e a > c e a > d){
+            escreva("O " + a + " É o maior entre eles" + "\n")
+        }
+        se(b > a e b > c e b > d){
+            escreva("O " + b + " É o maior entre eles" + "\n")
+        }
+        se(c > a e c > b e c > d){
+            escreva("O " + c + " É o maior entre eles" + "\n")
+        }
+        se(d > a e d > b e d > c){
+            escreva("O " + d + " É o maior entre eles" + "\n")
+        }
+
+        se(a < b e a < c e a < d){
+            escreva("O " + a + " É o menor entre eles")
+        }
+        se(b < a e b < c e b < d){
+            escreva("O " + b + " É o menor entre eles")
+        }
+        se(c < a e c < b e c < d){
+            escreva("O " + c + " É o menor entre eles")
+        }
+        se(d < a e d < b e d < c){
+            escreva("O " + d + " É o menor entre eles")
+        }
+    }
+}

@@ -1,0 +1,21 @@
+programa {
+	funcao inicio() {
+		inteiro n1
+		inteiro n2
+		inteiro soma
+		
+		escreva("Entre com primeiro numero: ")
+		leia(n1)
+		escreva("Entre com o segundo numero: ")
+		leia(n2)
+		
+		soma= n1 + n2
+		
+		se(soma>20){
+		escreva(soma + 8)
+		    
+		}senao{
+		    escreva(soma - 5)
+		}
+	}
+}

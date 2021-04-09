@@ -1,0 +1,22 @@
+programa {
+    
+    inclua biblioteca Matematica --> mat
+	
+	funcao inicio() {
+	    real n1
+	    real res1
+	    real res2
+	    
+	    escreva("Entre com o primeiro numero: ")
+	    leia(n1)
+	    
+	    res1= mat.raiz(n1, 2)
+	    res2= n1 * n1
+	    
+	    se(n1>0){
+	        escreva("A raiz quadrada é: " + res1)
+	    }senao{
+	        escreva("Esse numero ao quadrado é: " + res2)
+	    }
+	}
+}

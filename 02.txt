@@ -1,0 +1,19 @@
+programa {
+	funcao inicio() {
+		inteiro n1
+		inteiro n2
+		inteiro soma
+		
+		escreva("Entre com o Primeiro numero: ")
+		leia(n1)
+		escreva("Entre com o Segundo numero: ")
+		leia(n2)
+		
+		soma= n1 + n2
+		
+		escreva("Adição deles é: " + soma + "\n")
+		
+	    se(soma<10){
+	        escreva("Resultado menor que 10. ")}
+	    }
+}

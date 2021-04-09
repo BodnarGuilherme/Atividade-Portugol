@@ -1,0 +1,18 @@
+programa {
+	funcao inicio() {
+		inteiro n1
+		inteiro n2
+		
+		escreva("Entre com o primeiro numero: ")
+		leia(n1)
+		escreva("Entre com o segundo numero: ")
+		leia(n2)
+		
+		se(n1>n2){
+		    escreva(n1+ " é maior que " + n2)
+		}senao{
+		    escreva(n2+ " é maior que " + n1)
+		}
+		}
+	}
+

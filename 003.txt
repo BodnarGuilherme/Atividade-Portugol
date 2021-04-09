@@ -1,0 +1,16 @@
+programa {
+	funcao inicio() {
+		inteiro n1
+		
+		escreva("Entre com o primeiro numero: ")
+		leia(n1)
+		
+		se(n1%5==0){
+		    escreva("É divisivel por 5. ")
+		}senao{
+		    escreva("Não é divisivel por 5. ")
+		}
+		
+		
+	}
+}

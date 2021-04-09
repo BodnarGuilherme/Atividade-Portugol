@@ -1,0 +1,14 @@
+programa {
+	funcao inicio() {
+		inteiro n1
+		
+		escreva("Entre com numero: ")
+		leia(n1)
+		
+		se(n1>20){
+		    escreva(n1)
+		}senao{
+		    escreva(n1 + " Menor que 20. ")
+		}
+	}
+}

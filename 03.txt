@@ -1,0 +1,13 @@
+programa {
+	funcao inicio() {
+		inteiro n1
+		 
+		 escreva("Entre com o primeiro numero: ")
+		 leia(n1)
+		 
+		 se(n1 % 2 == 0){
+		     escreva("Numero par. ")
+		 }senao{
+		     escreva("Numero impar. ")}
+		 }
+		 }

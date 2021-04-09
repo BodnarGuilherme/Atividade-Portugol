@@ -1,0 +1,18 @@
+programa {
+	funcao inicio() {
+		inteiro n1
+		inteiro n2
+		
+		escreva("Entre com o primeiro numero A: ")
+		leia(n1)
+		escreva("Entre com o segundo numero B: ")
+		leia(n2)
+		
+		se(n1%n2==0){
+		    escreva("O numero " + n1 + " é divisivel por " + n2)
+		    }senao{
+		        escreva("O numero " + n1 + " não é divisivel pelo " + n2)
+		    }
+		}
+	}
+

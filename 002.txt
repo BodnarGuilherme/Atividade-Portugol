@@ -1,0 +1,16 @@
+programa {
+	funcao inicio() {
+		inteiro n1
+		
+		escreva("Entre com o primeiro numero: ")
+		leia(n1)
+		
+		se(n1%3==0){
+		    escreva("É multiplo de 3. ")
+		}senao{
+		    escreva("Não é multiplo de 3. ")
+		}
+		
+		
+	}
+}

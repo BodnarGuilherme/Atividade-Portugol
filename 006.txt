@@ -1,0 +1,36 @@
+programa {
+	funcao inicio() {
+		inteiro n1
+		
+		escreva("Entre com o primeiro numero: ")
+		leia(n1)
+		
+		se(n1%3==0){
+		    escreva("É divisivel por 3. ")
+		}senao se(n1%7==0){
+		    escreva("É divisivel 7. ")
+		}senao{
+		    escreva("Não é divisivel por 3 ou 7. ")
+		}
+		
+		
+	}
+}
+
+
+programa {
+    funcao inicio() {
+        inteiro n1
+
+        escreva("Entre com o primeiro numero: ")
+        leia(n1)
+
+        se(n1%3==0 e n1%7== 0){
+            escreva("É divisivel por 3 e por 7 ")
+        }senao{
+            escreva("Não é divisivel por 3 e por 7. ")
+        }
+
+
+    }
+}
